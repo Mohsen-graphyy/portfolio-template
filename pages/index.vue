@@ -19,7 +19,7 @@
         <UIcon class="w-8 h-8" name="i-logos-typescript-icon" dynamic />
       </div>
     </div>
-    <div class="rounded-full bg-white">
+    <div class="rounded-full bg-white mt-12 md:mt-0">
       <img
         src="/images/mohsen8-piri.png"
         class="rounded-full"
@@ -27,26 +27,6 @@
         height="498px"
         alt="mohsen piri محسن پیری" />
     </div>
-  </div>
-  <div class="mt-10">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus numquam
-    itaque quas, cumque in delectus placeat suscipit, officiis totam eum
-    doloribus. Dolores libero in, laboriosam placeat ipsa minus eligendi eum!
-  </div>
-  <div class="mt-10">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus numquam
-    itaque quas, cumque in delectus placeat suscipit, officiis totam eum
-    doloribus. Dolores libero in, laboriosam placeat ipsa minus eligendi eum!
-  </div>
-  <div class="mt-10">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus numquam
-    itaque quas, cumque in delectus placeat suscipit, officiis totam eum
-    doloribus. Dolores libero in, laboriosam placeat ipsa minus eligendi eum!
-  </div>
-  <div class="mt-10">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus numquam
-    itaque quas, cumque in delectus placeat suscipit, officiis totam eum
-    doloribus. Dolores libero in, laboriosam placeat ipsa minus eligendi eum!
   </div>
 </template>
 
