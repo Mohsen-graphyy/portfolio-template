@@ -60,9 +60,9 @@
       </UContainer>
     </div>
 
-    <UContainer class="pt-8 md:pt-0">
+    <div class="pt-8 md:pt-0">
       <slot></slot>
-    </UContainer>
+    </div>
   </div>
 </template>
 
@@ -70,16 +70,16 @@
 const isOpen = ref(false);
 const links = [
   {
-    label: "Installation",
+    label: "Home",
     icon: "i-heroicons-home",
     to: "/",
   },
   {
-    label: "Horizontal Navigation",
+    label: "Life",
     icon: "i-heroicons-chart-bar",
   },
   {
-    label: "Command Palette",
+    label: "Contact Me",
     icon: "i-heroicons-command-line",
   },
 ];
