@@ -1,6 +1,6 @@
 <template>
-  <div class="selection:bg-violet-400">
-    <div class="sticky top-0 bg-white w-full py-4 drop-shadow-lg">
+  <div class="selection:bg-violet-400 selection:text-white">
+    <div class="w-full py-4 mb-10">
       <UContainer>
         <div class="hidden md:flex justify-between items-center w-full gap-10">
           <div class="flex items-center gap-12">
@@ -8,10 +8,15 @@
               <img src="/images/perp-MP-logo.png" width="25" height="25" />
               <h1>Mohsen Piri</h1>
             </div>
-            <UHorizontalNavigation
-              :links="links"
-              class="w-fit border-b border-gray-200 dark:border-gray-800" />
           </div>
+          <UHorizontalNavigation
+            class="w-auto"
+            :links="links"
+            :ui="{
+              active:
+                'text-gray-900 dark:text-white after:bg-violet-500 dark:after:bg-violet-400 after:rounded-full',
+            }">
+          </UHorizontalNavigation>
           <UButton
             icon="i-heroicons-chat-bubble-bottom-center-text"
             color="violet"
@@ -31,6 +36,7 @@ const links = [
   {
     label: "Installation",
     icon: "i-heroicons-home",
+    to: "/",
   },
   {
     label: "Horizontal Navigation",
